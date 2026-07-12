@@ -37,6 +37,9 @@ function Hero() {
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
+      const isCompact = window.matchMedia("(max-width: 1024px)").matches;
+      const isSmall = window.matchMedia("(max-width: 768px)").matches;
+
       // Entrance animations
       gsap.from(".hero-row-top", {
         yPercent: 110, opacity: 0, duration: 1.1, ease: "power4.out", delay: 0.05,
@@ -44,9 +47,10 @@ function Hero() {
       gsap.from(".hero-crav-text", {
         yPercent: 80, opacity: 0, duration: 1.2, ease: "power4.out", delay: 0.32,
       });
-      gsap.from(".hero-burger-img-wrap", {
-        y: 100, opacity: 0, duration: 1.5, ease: "power4.out", delay: 0.1,
-      });
+      gsap.from(".hero-burger-img-wrap", isCompact
+        ? { opacity: 0, duration: 1.2, ease: "power3.out", delay: 0.1 }
+        : { y: 100, opacity: 0, duration: 1.5, ease: "power4.out", delay: 0.1 }
+      );
       gsap.from([".badge-smashed", ".badge-bold"], {
         scale: 0, opacity: 0, stagger: 0.18, duration: 1, ease: "back.out(2.5)", delay: 0.75,
       });
@@ -54,20 +58,26 @@ function Hero() {
         y: 30, opacity: 0, stagger: 0.15, duration: 0.9, ease: "power3.out", delay: 0.9,
       });
 
-      // Float burger continuously
-      gsap.to(".hero-burger-img-wrap", {
-        y: -22, repeat: -1, yoyo: true, duration: 2.8, ease: "power1.inOut",
-      });
-
-      // Parallax on scroll
-      gsap.to(".hero-text-layer", {
-        yPercent: -18,
-        scrollTrigger: { trigger: ref.current, start: "top top", end: "bottom top", scrub: 1.2 },
-      });
-      gsap.to(".hero-burger-img-wrap", {
-        yPercent: -8,
-        scrollTrigger: { trigger: ref.current, start: "top top", end: "bottom top", scrub: 0.7 },
-      });
+      if (!isCompact) {
+        // Desktop: full float + parallax
+        gsap.to(".hero-burger-img-wrap", {
+          y: -22, repeat: -1, yoyo: true, duration: 2.8, ease: "power1.inOut",
+        });
+        gsap.to(".hero-text-layer", {
+          yPercent: -18,
+          scrollTrigger: { trigger: ref.current, start: "top top", end: "bottom top", scrub: 1.2 },
+        });
+        gsap.to(".hero-burger-img-wrap", {
+          yPercent: -8,
+          scrollTrigger: { trigger: ref.current, start: "top top", end: "bottom top", scrub: 0.7 },
+        });
+      } else if (isSmall) {
+        // Phone only: keep centered on X, subtle Y float
+        gsap.set(".hero-burger-img-wrap", { x: 0, xPercent: 0 });
+        gsap.to(".hero-burger-img-wrap", {
+          y: -5, repeat: -1, yoyo: true, duration: 2.6, ease: "power1.inOut",
+        });
+      }
     }, ref);
     return () => ctx.revert();
   }, []);
@@ -75,33 +85,31 @@ function Hero() {
   return (
     <section ref={ref} className="hero">
 
-      {/* ── Text background layer (THE BURGER + CRAV) ── */}
+      {/* ── Stack: THE BURGER → burger → SVSFood (in-flow on compact) ── */}
       <div className="hero-text-layer">
-        <h1 className="hero-text-row" style={{ overflow: "hidden" }}>
+        <h1 className="hero-text-row">
           <span className="hero-row-top">THE BURGER</span>
         </h1>
-        <p className="hero-crav-row" style={{ overflow: "hidden" }}>
+
+        <div className="hero-burger-img-wrap">
+          <Image
+            src="/images/hamburgerrr.png"
+            alt="SVSFood Signature Smash Burger"
+            width={1000}
+            height={1000}
+            priority
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+
+        <p className="hero-crav-row">
           <span className="hero-crav-text">SVSFood</span>
         </p>
-      </div>
-
-      {/* ── Burger image – centred, overlaps both rows ── */}
-      <div className="hero-burger-img-wrap">
-        <Image
-          src="/images/hamburgerrr.png"
-          alt="SVSFood Signature Smash Burger"
-          width={1000}
-          height={1000}
-          priority
-          style={{ width: "100%", height: "auto", objectFit: "contain" }}
-        />
       </div>
 
       {/* ── Sticker badges ── */}
       <div className="badge-smashed">SMASHED<br />FRESH</div>
       <div className="badge-bold">BOLD<br />FLAVOR</div>
-
-      {/* ── Bottom captions ── */}
 
     </section>
   );

@@ -1184,6 +1184,94 @@ body {
 }
 
 /* ── RESPONSIVE ──────────────────────────────────── */
+
+/* Tablets + phones: stacked hero — burger overlays THE BURGER + SVSFood */
+@media (max-width: 1024px) {
+  .hero {
+    min-height: 100svh;
+    height: 100svh;
+    padding: 4.25rem 0 0.75rem;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .hero-text-layer {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    z-index: 1;
+  }
+
+  .hero-row-top {
+    font-size: clamp(6rem, 24vw, 12rem);
+    font-weight: 900;
+    -webkit-text-stroke: 4px white;
+    line-height: 0.75;
+    position: relative;
+    z-index: 1;
+    /* pull title up toward the nav */
+    margin-top: -12vh;
+    margin-bottom: 0;
+  }
+
+  .hero-crav-row {
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-crav-text {
+    font-size: clamp(4rem, 18vw, 7.5rem);
+    -webkit-text-stroke: 4px white;
+    margin-top: 4vw;
+    line-height: 0.8;
+  }
+
+  .hero-burger-img-wrap {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    /* reset desktop translate(-50%,-50%) so it doesn't slide left */
+    transform: translate(0, 0);
+    width: min(78vw, 520px);
+    height: auto;
+    max-height: 55svh;
+    margin: -10vw auto -6vw;
+    z-index: 3;
+    flex-shrink: 0;
+    align-self: center;
+    display: block;
+  }
+
+  .hero-burger-img-wrap img {
+    width: 100%;
+    height: 100%;
+    max-height: 55svh;
+    object-fit: contain;
+  }
+
+  .badge-smashed {
+    left: 4%;
+    top: 22%;
+    font-size: clamp(1.25rem, 4.5vw, 2.5rem);
+    -webkit-text-stroke: 2px white;
+  }
+
+  .badge-bold {
+    right: 4%;
+    bottom: 22%;
+    font-size: clamp(1.25rem, 4.5vw, 2.5rem);
+    -webkit-text-stroke: 2px white;
+  }
+}
+
 @media (max-width: 768px) {
 
   /* Menu Overrides */
@@ -1207,40 +1295,52 @@ body {
     padding-top: 3vw;
   }
 
-  /* Hero */
+  /* Hero — phone only: nudge title up, burger slightly up */
   .hero {
-    min-height: 100svh;
-    padding-bottom: 6rem;
+    padding: 4rem 0 0.5rem;
   }
 
   .hero-row-top {
-    font-size: 22vw;
+    font-size: clamp(5.5rem, 30vw, 11rem);
+    font-weight: 900;
     -webkit-text-stroke: 3px white;
+    line-height: 0.75;
+    margin-top: -17vh;
   }
 
   .hero-crav-text {
-    font-size: 18vw;
+    font-size: clamp(3.75rem, 22vw, 7rem);
     -webkit-text-stroke: 3px white;
-    margin-top: 18vw;
+    margin-top: 6vw;
+    /*SVSFOOD*/
   }
 
   .hero-burger-img-wrap {
-    width: 72vw;
-    height: 72vw;
-    transform: translate(-50%, -55%);
+    width: min(92vw, 440px);
+    max-height: 52svh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -12vw;
+    margin-bottom: -12vw;
+    align-self: center;
+    z-index: 3;
+  }
+
+  .hero-burger-img-wrap img {
+    max-height: 52svh;
   }
 
   .badge-smashed {
-    left: 4%;
-    top: 18%;
-    font-size: 7vw;
+    left: 3%;
+    top: 26%;
+    font-size: 6.5vw;
     -webkit-text-stroke: 2px white;
   }
 
   .badge-bold {
-    right: 4%;
-    bottom: 22%;
-    font-size: 7vw;
+    right: 3%;
+    bottom: 26%;
+    font-size: 6.5vw;
     -webkit-text-stroke: 2px white;
   }
 
