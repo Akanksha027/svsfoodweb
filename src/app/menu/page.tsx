@@ -190,9 +190,22 @@ export default function MenuPage() {
               className="scroll-mt-24 max-md:scroll-mt-20"
             >
               <div className="flex items-end justify-between gap-4 mb-[3vw] max-md:mb-5 border-b-[3px] border-black/5 pb-[1.5vw]">
-                <h3 className="font-mouse-memoirs uppercase text-[4vw] max-md:text-[8vw] text-[var(--red)] leading-none">
-                  {cat.name}
-                </h3>
+                <div className="flex items-center gap-[2vw] max-md:gap-3 min-w-0">
+                  {cat.image ? (
+                    <div className="relative shrink-0 w-[7vw] h-[7vw] max-md:w-[16vw] max-md:h-[16vw]">
+                      <Image
+                        src={cat.image}
+                        alt={cat.name}
+                        fill
+                        className="object-contain drop-shadow-md"
+                        sizes="(max-width: 768px) 16vw, 7vw"
+                      />
+                    </div>
+                  ) : null}
+                  <h3 className="font-mouse-memoirs uppercase text-[4vw] max-md:text-[8vw] text-[var(--red)] leading-none truncate">
+                    {cat.name}
+                  </h3>
+                </div>
                 <span className="font-mouse-memoirs text-black/60 text-[1.4vw] max-md:text-[3.5vw] uppercase shrink-0">
                   {cat.items.length} items
                 </span>
