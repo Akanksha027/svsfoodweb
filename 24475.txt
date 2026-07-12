@@ -1,0 +1,3478 @@
+{
+  "success": "1",
+  "message": "Menu items are successfully listed.",
+  "restaurants": [
+    {
+      "restaurantid": "24475",
+      "active": "1",
+      "details": {
+        "restname": "SVS FOODS",
+        "restowner": "37208",
+        "menusharingcode": "oxvn9uwk",
+        "currency_html": "₹",
+        "country": "India",
+        "country_id": "97",
+        "invoice_ooa": 0,
+        "images": [
+          
+        ],
+        "restaurantname": "SVS Food",
+        "address": "Jeeva Jyoti Colony, Near Circuit House, Rewa Road, Satna Locality, Satna\n",
+        "contact": "7869717041",
+        "latitude": "24.574436",
+        "longitude": "80.83529",
+        "landmark": "Near circuit house rewa road",
+        "city": "SATNA",
+        "city_id": "1358971",
+        "state": "Madhya Pradesh",
+        "state_id": "1636",
+        "minimumorderamount": "100",
+        "minimumdeliverytime": "30 Minutes",
+        "minimum_prep_time": "15",
+        "deliverycharge": "35",
+        "deliveryhoursfrom1": "",
+        "deliveryhoursto1": "",
+        "deliveryhoursfrom2": "",
+        "deliveryhoursto2": "",
+        "calculatetaxonpacking": 0,
+        "calculatetaxondelivery": 1,
+        "dc_taxes_id": "60610,60611",
+        "pc_taxes_id": "",
+        "c_s_c": 0,
+        "packaging_applicable_on": "NONE",
+        "packaging_charge": "",
+        "packaging_charge_type": ""
+      }
+    }
+  ],
+  "ordertypes": [
+    {
+      "ordertypeid": 1,
+      "ordertype": "Delivery"
+    },
+    {
+      "ordertypeid": 2,
+      "ordertype": "Pick Up"
+    },
+    {
+      "ordertypeid": 3,
+      "ordertype": "Dine In"
+    }
+  ],
+  "group_categories": [
+    
+  ],
+  "categories": [
+    {
+      "categoryid": "542961",
+      "active": "1",
+      "categoryrank": "1",
+      "parent_category_id": "0",
+      "tags": null,
+      "categoryname": "BURGERS",
+      "categorytimings": "",
+      "category_image_url": "",
+      "group_category_id": ""
+    },
+    {
+      "categoryid": "2430322",
+      "active": "1",
+      "categoryrank": "4",
+      "parent_category_id": "0",
+      "tags": null,
+      "categoryname": "NAAN & ROLLS",
+      "categorytimings": "",
+      "category_image_url": "",
+      "group_category_id": ""
+    },
+    {
+      "categoryid": "542967",
+      "active": "1",
+      "categoryrank": "5",
+      "parent_category_id": "0",
+      "tags": null,
+      "categoryname": "SIDES",
+      "categorytimings": "",
+      "category_image_url": "",
+      "group_category_id": ""
+    },
+    {
+      "categoryid": "542962",
+      "active": "1",
+      "categoryrank": "6",
+      "parent_category_id": "0",
+      "tags": null,
+      "categoryname": "PIZZA",
+      "categorytimings": "",
+      "category_image_url": "",
+      "group_category_id": ""
+    },
+    {
+      "categoryid": "542968",
+      "active": "1",
+      "categoryrank": "7",
+      "parent_category_id": "0",
+      "tags": null,
+      "categoryname": "BEVERAGES",
+      "categorytimings": "",
+      "category_image_url": "",
+      "group_category_id": ""
+    },
+    {
+      "categoryid": "542966",
+      "active": "1",
+      "categoryrank": "9",
+      "parent_category_id": "0",
+      "tags": null,
+      "categoryname": "GARLIC BREAD",
+      "categorytimings": "",
+      "category_image_url": "",
+      "group_category_id": ""
+    },
+    {
+      "categoryid": "1262830",
+      "active": "1",
+      "categoryrank": "10",
+      "parent_category_id": "0",
+      "tags": null,
+      "categoryname": "TASTE MAKER DIPS",
+      "categorytimings": "",
+      "category_image_url": "",
+      "group_category_id": ""
+    },
+    {
+      "categoryid": "543664",
+      "active": "1",
+      "categoryrank": "11",
+      "parent_category_id": "0",
+      "tags": null,
+      "categoryname": "DESSERTS",
+      "categorytimings": "",
+      "category_image_url": "",
+      "group_category_id": ""
+    }
+  ],
+  "parentcategories": [
+    
+  ],
+  "items": [
+    {
+      "itemid": "1235807474",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542966",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Stuff Supreme Garlic Bread",
+      "item_attributeid": "1",
+      "itemdescription": "Packed With Jalapenos Olives Corn & A Little Veggies With Cheese",
+      "minimumpreparationtime": "",
+      "price": "200.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17792918990_2026_05_20_21_14_55_Untitled_design_1_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=be82231bdb0022b8ddf52f897f0f30f6b787139d534548b870f4f8d064d1ca19",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235807475",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542966",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Loaf Cheese Garlic Bread",
+      "item_attributeid": "1",
+      "itemdescription": "A Classic Treat Filled Solely With Delicious Cheese",
+      "minimumpreparationtime": "",
+      "price": "180.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17756295310_2026_04_08_11_55_27_Gralic_bread.jpg.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=531a01f337eddb63dafccd4dc5dce4c886d13d2592f2fdb89ec9d631459b8ef0",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235807473",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542966",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Stuff Corn Garlic Bread",
+      "item_attributeid": "1",
+      "itemdescription": "Cheese & Corn Combined For A Flavourful Twist",
+      "minimumpreparationtime": "",
+      "price": "180.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17792918840_2026_05_20_21_14_28_Untitled_design_1_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=0f33a41c5149152badb7b8cf67c31a72c2ca73137dcd63516e604b47305a0dc2",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1304877615",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Paneer Herbinaro Burger",
+      "item_attributeid": "1",
+      "itemdescription": "A Flavour-Packed Paneer Patty Infused With Jalapeños, Onion, Tomato And Herby Seasoning From Within, Layered With A Bold Tangy-Spicy Sauce",
+      "minimumpreparationtime": "",
+      "price": "160.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780816480_2026_05_06_21_04_02_Paneer_Burger_FINAL_FINAL_FINAL_copy.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=dc3ab882aa7c299a18fda16464e0bb001de43f3c82a4e73c2d2d64181925ea11",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306854136",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Maharaja Burger ( Without Onion & Garlic )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "160.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789308770_2026_05_16_16_57_51_Maharaja_Burger_Jain_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=d3cf30713ade79eca0da9a41b0b7d548e019685b558cc78cbfc0ba0ea14900ca",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235807472",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542966",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Stuff Cheese Garlic Bread",
+      "item_attributeid": "1",
+      "itemdescription": "A Delightful Blend Of Gooey Cheese Stuffed Within",
+      "minimumpreparationtime": "",
+      "price": "150.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17792918570_2026_05_20_21_14_13_Untitled_design_1_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=928f09849c25e2731f55745f281fe766bfc4bc43a20356689683ce931b7acee8",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1307418027",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Jumbo Paneer Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Loaded With A Jumbo Thick Paneer Patty For The Ultimate Big Bite",
+      "minimumpreparationtime": "",
+      "price": "140.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17795466110_2026_05_23_19_54_53_Paneer_Burger_FINAL_FINAL_FINAL_copy.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f456161de17590c5d9456379eb6867c5f14108d17a7ed56e140350bec2b65662",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1279905805",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "304621",
+          "addon_item_selection_min": "1",
+          "addon_item_selection_max": "1"
+        },
+        {
+          "addon_group_id": "1436890",
+          "addon_item_selection_min": "1",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Dressing Fries",
+      "item_attributeid": "1",
+      "itemdescription": "Crispy Fries With Cheesy, Creamy Toppings",
+      "minimumpreparationtime": "",
+      "price": "140.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780853260_2026_05_06_22_05_22_Dressing_Fries.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=a30e71da3525f283ce99c5e169a10318e0afcc6dd786b0ae78ffe098df5514bc",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1281823413",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542968",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Spicy Lemonade",
+      "item_attributeid": "1",
+      "itemdescription": "A Refreshing Desi Drink With Tangy Lemon And A Spicy Kick",
+      "minimumpreparationtime": "",
+      "price": "140.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781465740_2026_05_07_15_06_10_SPICY_LEMONADE.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=3ce73f12b35d70ea8f95556a94cb6aec58f498c7f564ec5f82a8c3770e86a813",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1304782937",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Fusion Paneer Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Spicy Tangy Fusion With A Crispy Patty Stuffed With Mashed Paneer & Potatoes",
+      "minimumpreparationtime": "",
+      "price": "140.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780816080_2026_05_06_21_03_23_SUPREME_BURGER.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=33cd2ffa5f99c2f96fcae987b4649fc46702de684c0850aa50256b6ca7948df0",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1304877616",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Chilli Avocado Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Creamy Avocado Spread With A Fiery Kick Layered Over A Juicy Patty For The Perfect Spicy Balance",
+      "minimumpreparationtime": "",
+      "price": "140.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780816730_2026_05_06_21_04_28_Avacado_Burger.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=4f28441a8cc76d43084ded398917b7192862528db79715cb89596548da29cc40",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235804997",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542968",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Virgin Mojito",
+      "item_attributeid": "1",
+      "itemdescription": "A Refreshing Soda Mocktail Made With Fresh Mint, Zesty Lime, And A Sparkling Twist",
+      "minimumpreparationtime": "",
+      "price": "140.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781463670_2026_05_07_15_02_40_Vergin_Mojito_1_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f2daf3a15ba3b5c75ae06a02e5ba99a5e0ea0851b5877d5a5bc35d1fba4f342f",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306855300",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Cashew Cheese Burger ( Without Onion & Garlic )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "140.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789309130_2026_05_16_16_58_28_jain_cashew_cheese_burger.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=a59592b0336b1e4b57da97258c72461a13e130e95adeee465e1fd59b307f8887",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235799476",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Maharaja Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Crispy Aloo & Paneer Patty With Special Sauce",
+      "minimumpreparationtime": "",
+      "price": "140.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780814710_2026_05_06_21_01_03_Maharaja_Burger.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=01c4a894da6bf1839f5d25898fb66349f4eb8d398f6a3c77882177e088654b64",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306855051",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Spring Rolls 5pc",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789318940_2026_05_16_17_14_50_veg_spring_rolls_final.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e77ec1fa5debac6f7815c86e65739e256094d19dd50ea4ea0901470159e67dd4",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306854289",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "2430322",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Wraproll ( Without Onion & Garlic )",
+      "item_attributeid": "1",
+      "itemdescription": "A Chatpata Jain Roll Packed With Flavor In Every Bite",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789318740_2026_05_16_17_14_29_jain_wrap.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=77cc13ff610195827731b9afb528ab9d7e1942fc9b205ba2f8dd761770c73ace",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306855052",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Veggie Sticks 6pc",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789319350_2026_05_16_17_15_29_Vegie_Stix.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=d6fe6b7b76912a131e2f20cd5d7359a2d06ad60711166b16ef85725080296cb8",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306855053",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Noodles Samosa 5pc",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789320180_2026_05_16_17_16_53_Samosa_2.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=90387c08c7dd8c8e2664ab7a9c12cb20c2615b39b3261950deadd6d4bc11b574",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306854134",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Paneer Burger ( Without Onion & Garlic )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789307900_2026_05_16_16_56_20_jain_paneer_1_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=8fcb94cdcdd94708883a83f3f41b7f2795387c54aaeaa106d27626bf1af6b60c",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306854133",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Cheese Burger ( Without Onion & Garlic )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789307520_2026_05_16_16_55_46_JAIN_CHEESE_BURGER.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=5c68ae6601411a9fee3f1bad92ab0bad9a521ddb80f0f07930c08450c4860b7b",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306855185",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Spring Rolls ( Without Onion & Garlic )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789320360_2026_05_16_17_17_12_jain_roll.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=3a8e672019dae5d7ca794a8ccc0ea4aa90475439d860c0c4d8560cc0bc66ccdc",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306855279",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Peri Peri Fries ( Without Onion & Garlic )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789320600_2026_05_16_17_17_36_Peri_Peri_FRIES.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=a2b8e96429167aa3a36acd2e17a15685d822239f336a37a331cddeb5c0b674f3",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306855349",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Raw Banana Samosa 5pc ( Without Onion & Garlic )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789320860_2026_05_16_17_18_00_Samosa_2.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=2998f961a9e368422c34ef206effd4d5f288fe209f25c8ec6c1bea1f84a9187c",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235799475",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Paneer Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Crispy Paneer Patty With Tom Mayo Sauce",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780814410_2026_05_06_21_00_35_Paneer_Burger_FINAL_FINAL_FINAL_copy.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=23f4afcae8f1f3cef867f63cc200bacbfe4a72e78ffe0f7acf61ab05649393da",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1307356506",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Cheesy Rounders 8pc",
+      "item_attributeid": "1",
+      "itemdescription": "Loaded With Cheese & Corn Goodness",
+      "minimumpreparationtime": "",
+      "price": "120.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17794607500_2026_05_22_20_09_03_Cheese_Corn_Balls_8pcs_1_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=032e62a0ae6d914f5acb674b21b778f4bf93f3eeebf9160a74f52b0ffe861311",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306899678",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Veg Burger ( Dairy Free )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "100.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789309520_2026_05_16_16_59_02_Veg_Burger_dairy_free_1_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=0bb7a1203f582a6550de0f4f26e04f4ca399dc0daea0d798f1c46d1f0b99ed61",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1250936249",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "2430322",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Paneer Wraproll",
+      "item_attributeid": "1",
+      "itemdescription": "Filled With Paneer Masala & Veggies",
+      "minimumpreparationtime": "",
+      "price": "100.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781462270_2026_05_07_15_00_15_paneer_wrap_FINAL_FINAL.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=39fade801514021b17bbcc91f4f6fe97de3227b114f5b2ce01d72f86a0225301",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "8185399",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "543664",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "1",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Choco Lava Cake",
+      "item_attributeid": "1",
+      "itemdescription": "Dessert With A Hot Liquid Chocolate Filled Inside",
+      "minimumpreparationtime": "",
+      "price": "100.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17756296170_2026_04_08_11_56_54_CHOCO_LAVA.jpg.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=6c03c8ddc2a7abc3c4e106f0769e512392ef25c5d5552e20e9070b44ccc3201e",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235799472",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Chilli Lava Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Flavoured A Slightly Spicier",
+      "minimumpreparationtime": "",
+      "price": "100.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17757297330_2026_04_09_15_45_25_IMG_5346.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=fd10210e62c37e7cc8440b3029b6a7271bae83f6e57b7f0aa1068f10d9e5995c",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235804992",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Peri Peri Fries",
+      "item_attributeid": "1",
+      "itemdescription": "Crispy Fries Assorted With Spicy Herbs",
+      "minimumpreparationtime": "",
+      "price": "100.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780852130_2026_05_06_22_03_26_Peri_Peri_FRIES.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e8430c154865d36184c3d63327eb777cec54c224d649e9fa4fdd6cdb2d5c5420",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235799471",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Supreme Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Cheesy Burger With Blend Of Tom Mayo Sauce",
+      "minimumpreparationtime": "",
+      "price": "90.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780813300_2026_05_06_20_58_43_SUPREME_BURGER.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=1baaf3d7820f972ffbf1f7fc5f7fdd47e15ba083858371beeb509a3eb1d83502",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235804991",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542967",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Salted Fries",
+      "item_attributeid": "1",
+      "itemdescription": "Crispy Fries Assorted With Savoury Himalayan Salt",
+      "minimumpreparationtime": "",
+      "price": "90.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780851870_2026_05_06_22_03_00_REGULAR_FRIES.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=2a10a98bbb6ce399c1a043064f29500344cfc5865dfd8165ee0a583d81eb946c",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306854005",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Burger",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "90.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789306430_2026_05_16_16_53_55_JAIN_BURGER_1_.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=c6b005aece3ff753724de05c52470b9b29c03ccca1643debc8f362a51a5c9c7c",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1250936248",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "2430322",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Crispy Wraproll",
+      "item_attributeid": "1",
+      "itemdescription": "Filled With Aloo Masala & Veggies",
+      "minimumpreparationtime": "",
+      "price": "80.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781462060_2026_05_07_14_59_45_ALOO_WRAP_FINAL_FINAL.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=ab88e09a60530ab6a2bcbe5768f3debf7c2ff1c2881fa0be2d95775181f249ba",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235799478",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "2430322",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Cheese Chatpata Naan",
+      "item_attributeid": "1",
+      "itemdescription": "Crunchy Naan Filled With Special Cheesy Masala & Mexican Sauce",
+      "minimumpreparationtime": "",
+      "price": "80.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781461770_2026_05_07_14_59_30_Cheese_Chatpata_Naan.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=401530191abaa38f98b421c0a27ffce2e96f55deff856ea62bb0ede803aa79ec",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1301351067",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Vadapav Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Mumbai Special Vadapav With A Burger Twist",
+      "minimumpreparationtime": "",
+      "price": "70.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780815840_2026_05_06_21_02_53_vada_pav_burger_Final_2.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=660f610d1bb507c2d61fb7d922319f339ba997c3d7128a9a52c9b850f8824171",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1256647960",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "542961",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        {
+          "addon_group_id": "1179114",
+          "addon_item_selection_min": "0",
+          "addon_item_selection_max": "1"
+        }
+      ],
+      "is_recommend": "0",
+      "itemname": "Aloo Tikki Burger",
+      "item_attributeid": "1",
+      "itemdescription": "Crispy Aloo Patty With Svs Secret Sauce",
+      "minimumpreparationtime": "",
+      "price": "60.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17780786820_2026_05_06_20_14_36_Aloo_tikki_final_burger_copy.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=ef0039bb157e87282af1c80f7fe918dbcdf1e8df972d8ae108ff6540cbe5785d",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235799477",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "2430322",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Chatpata Naan",
+      "item_attributeid": "1",
+      "itemdescription": "Crunchy Naan Filled With Special Masala & Mexican Sauce",
+      "minimumpreparationtime": "",
+      "price": "60.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781461340_2026_05_07_14_58_48_Chatpata_Naan.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=172ea358ea62d7c98618a234ecd0e808ea238ae9a5e2447122e6f0dbea3d5cf4",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1305321573",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "543664",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Mango Malai Cake",
+      "item_attributeid": "1",
+      "itemdescription": "Cake Assorted With Malai & A Layer Of Mango Pulp",
+      "minimumpreparationtime": "",
+      "price": "59.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781469700_2026_05_07_15_12_44_malai_cake_2.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=17c0c7210a1f7557004da8dfe1ace93cd5d2b77e24e6c37ae7b0fc52efd9c17e",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1260897616",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "543664",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Strawberry Malai Cake",
+      "item_attributeid": "1",
+      "itemdescription": "Cake Assorted With Malai & Garnished With A Layer Of Strawberry Pulp",
+      "minimumpreparationtime": "",
+      "price": "59.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781469510_2026_05_07_15_12_27_makai_cake_1.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=33fe0dec15c24bda58cff4775180b4142ea3828c866603ea119a080270fb3649",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306900281",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "543664",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Strawberry Malai Cake ( Dairy Free )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "59.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789323350_2026_05_16_17_22_12_makai_cake_1.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=11f4e28617b20ca3c3b29bf8b9e4527a2b3d33ecc425d9e24a19d1f1ed42d804",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1306900280",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "543664",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Mango Malai Cake ( Dairy Free )",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "59.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17789323200_2026_05_16_17_21_54_malai_cake_2.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=987343bd5c10d51771d93275c719fffeb937a52c4c0373002ae3bc3fbcc67854",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235817225",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "1262830",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Burger Sause",
+      "item_attributeid": "1",
+      "itemdescription": "Tangy, Creamy Burger Sauce – A Perfect Dip",
+      "minimumpreparationtime": "",
+      "price": "20.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781469320_2026_05_07_15_12_07_Burger_Sauce.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=623211ebe71aba8f08ea59ed2bebba5d62fc05b39ad28fcdf7a3cad161643361",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235817224",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "1262830",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Mayo Dip",
+      "item_attributeid": "1",
+      "itemdescription": "Smooth, Creamy Classic Dip",
+      "minimumpreparationtime": "",
+      "price": "20.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781469090_2026_05_07_15_11_42_Mayo_Sauce.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=69ea204a2bd25802aeaf2fc67d4d78cab59a2ecdfce10d7c9a3f940ccef43ee1",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235817223",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "1262830",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Liquid Cheese",
+      "item_attributeid": "1",
+      "itemdescription": "Rich, Melty Cheese Delight",
+      "minimumpreparationtime": "",
+      "price": "20.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781468920_2026_05_07_15_11_27_Liquiid_Cheese_sauce.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=58d3b45a88ba27ed4e4a141357646f982ddf431c6ab59efbc61babce66abf588",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235817221",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "1262830",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Chilli Garlic Dip",
+      "item_attributeid": "1",
+      "itemdescription": "Bold, Spicy Garlic Punch",
+      "minimumpreparationtime": "",
+      "price": "20.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17783188900_2026_05_09_14_58_05_Chilli_Garlic_Dip.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=1fc98da9cb6c002c052a11e694d2f49dcf88d28d3efa1cd99c69cb677858f3d1",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235879171",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "1262830",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Cheese Slice",
+      "item_attributeid": "1",
+      "itemdescription": "An extra cheese slice upgrade on your burger",
+      "minimumpreparationtime": "",
+      "price": "15.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17467006120_2025_05_08_16_06_46_cheese_slice.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=2ca12b00cddaabdc96c9f0923d8bdd2100f88c13b4a0ff3d77a7985cd1c58beb",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1289043884",
+      "itemallowvariation": "0",
+      "itemrank": "1",
+      "item_categoryid": "1262830",
+      "item_ordertype": "1,2,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "",
+      "is_combo": "0",
+      "variation": [
+        
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Lettuce",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "10.00",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17564660040_2025_08_29_16_43_19_lettuce.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=56f11aa26320177e07837a9a9fdc127c08797707ee604112174a8a45528b265b",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1246597169",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542968",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Customisation",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1304630738",
+          "variationid": "1387881",
+          "name": "Regular Milk",
+          "groupname": "Customisation",
+          "price": "140.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "9",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        },
+        {
+          "id": "1301256073",
+          "variationid": "2001044",
+          "name": "Oat Milk",
+          "groupname": "Customisation",
+          "price": "170.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "27",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Ras Malai Retreat",
+      "item_attributeid": "1",
+      "itemdescription": "Beloved Indian Dessert With Richness Of Creamy Milk & Saffron",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17757302290_2026_04_09_15_53_44_IMG_5348.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f496753a189f6eadfd72f8e785630adbad9ac4c2820c09a327ddde8ee8c849cc",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1248034877",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542962",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "1",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "1",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Size",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1248034915",
+          "variationid": "97599",
+          "name": "Medium Size 8\"",
+          "groupname": "Size",
+          "price": "280.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "1",
+          "addon": [
+            {
+              "addon_group_id": "328114",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        },
+        {
+          "id": "1248034916",
+          "variationid": "97600",
+          "name": "King Size 12\"",
+          "groupname": "Size",
+          "price": "490.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "2",
+          "addon": [
+            {
+              "addon_group_id": "304421",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Jain Pizza",
+      "item_attributeid": "1",
+      "itemdescription": "A Mindful Option Without Onion & Garlic",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17756292740_2026_04_08_11_51_09_JAIN_PIZZA.jpg.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=c3096731ce0ab22b2e47a367c4ccac21dde200ed2702663db13325ffa4ea4f87",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235802964",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542962",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "1",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Size",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1235802965",
+          "variationid": "97599",
+          "name": "Medium Size 8\"",
+          "groupname": "Size",
+          "price": "180.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "1",
+          "addon": [
+            {
+              "addon_group_id": "328114",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        },
+        {
+          "id": "1235802966",
+          "variationid": "97600",
+          "name": "King Size 12\"",
+          "groupname": "Size",
+          "price": "440.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "2",
+          "addon": [
+            {
+              "addon_group_id": "304421",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Margherita Pizza",
+      "item_attributeid": "1",
+      "itemdescription": "Classic Pizza With A Blanket Of Delicious Cheese",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17756291900_2026_04_08_11_49_47_MARGHRITA.jpg.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=b2d713646fe32262f9ed8def524b30937f9cbe14ce29b7775eb393e7213e40b1",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235803598",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542962",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "1",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Size",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1235803602",
+          "variationid": "97599",
+          "name": "Medium Size 8\"",
+          "groupname": "Size",
+          "price": "210.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "1",
+          "addon": [
+            {
+              "addon_group_id": "328114",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        },
+        {
+          "id": "1235803603",
+          "variationid": "97600",
+          "name": "King Size 12\"",
+          "groupname": "Size",
+          "price": "460.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "2",
+          "addon": [
+            {
+              "addon_group_id": "304421",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Veggie Loaded Pizza",
+      "item_attributeid": "1",
+      "itemdescription": "Bursting With Capsicum Onion Tomato & Cheese",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17756292070_2026_04_08_11_50_04_VEGGIE_LOADED_.jpg.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=700ecbd0c93535319446f4a01e1cb26bdb0682986779705abb610b16cfb5ee9b",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235803599",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542962",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "1",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Size",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1235803604",
+          "variationid": "97599",
+          "name": "Medium Size 8\"",
+          "groupname": "Size",
+          "price": "220.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "1",
+          "addon": [
+            {
+              "addon_group_id": "328114",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        },
+        {
+          "id": "1235803605",
+          "variationid": "97600",
+          "name": "King Size 12\"",
+          "groupname": "Size",
+          "price": "460.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "2",
+          "addon": [
+            {
+              "addon_group_id": "304421",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Golden Corn Pizza",
+      "item_attributeid": "1",
+      "itemdescription": "A Savoury Blend Of Corn & Cheese",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17756292200_2026_04_08_11_50_17_GOLDEN_CORN_.jpg.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=5f0ea177ab6fadfb0075e494ce191d8a4997e5454db34f1764a651d812d01f92",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235803600",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542962",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "1",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Size",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1235803606",
+          "variationid": "97599",
+          "name": "Medium Size 8\"",
+          "groupname": "Size",
+          "price": "280.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "1",
+          "addon": [
+            {
+              "addon_group_id": "328114",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        },
+        {
+          "id": "1235803607",
+          "variationid": "97600",
+          "name": "King Size 12\"",
+          "groupname": "Size",
+          "price": "510.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "2",
+          "addon": [
+            {
+              "addon_group_id": "304421",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Pepe Paneer Pizza",
+      "item_attributeid": "1",
+      "itemdescription": "Paneer Capsicum Onion Paprika & Cheese Unite In This Flavourful Pizza",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17756292330_2026_04_08_11_50_29_PEPE_PANEER.jpg.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=18612f316ced94fbc3749226d5c5858501d04760d2b5b38fe0a8f4569b8d67c3",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235803601",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542962",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "1",
+      "itemaddonbasedon": "1",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Size",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1235803608",
+          "variationid": "97599",
+          "name": "Medium Size 8\"",
+          "groupname": "Size",
+          "price": "310.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "1",
+          "addon": [
+            {
+              "addon_group_id": "328114",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        },
+        {
+          "id": "1235803609",
+          "variationid": "97600",
+          "name": "King Size 12\"",
+          "groupname": "Size",
+          "price": "580.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "2",
+          "addon": [
+            {
+              "addon_group_id": "304421",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "variationallowaddon": 1,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "All In One Pizza",
+      "item_attributeid": "1",
+      "itemdescription": "An Explosion Of Flavours Featuring Jalapenos Olives Paneer Veggies & Cheese",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17756292460_2026_04_08_11_50_43_ALL_IN_ONE_.jpg.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=2ca9332718599f51d2b6134543431b75ba36100ab35f97c7e7a7aabdabe73a44",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1272145652",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542968",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Customisation",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1304630739",
+          "variationid": "1387881",
+          "name": "Regular Milk",
+          "groupname": "Customisation",
+          "price": "140.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "9",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        },
+        {
+          "id": "1301256074",
+          "variationid": "2001044",
+          "name": "Oat Milk",
+          "groupname": "Customisation",
+          "price": "170.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "27",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Strawberry Sensation",
+      "item_attributeid": "1",
+      "itemdescription": "Sip Into Strawberry Heaven With Our Delightful Milkshake",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781465520_2026_05_07_15_05_48_Strawberry_Sensation.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=88cf7a1659f8ec776de0b5781dfff9ad41051a02319f69b7a403f73fdace43c7",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235804999",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542968",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Customisation",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1304630736",
+          "variationid": "1387881",
+          "name": "Regular Milk",
+          "groupname": "Customisation",
+          "price": "140.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "9",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        },
+        {
+          "id": "1301256071",
+          "variationid": "2001044",
+          "name": "Oat Milk",
+          "groupname": "Customisation",
+          "price": "170.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "27",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Cold Coffee Craze",
+      "item_attributeid": "1",
+      "itemdescription": "Classic Symphony Of Rich Coffee & Creamy Goodness",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781464260_2026_05_07_15_03_41_Cold_Coffee_Craze_2.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=aaa8bbfb80fb0c12078620b339974dfadebd64ca5f30dc856ae70de30dac7824",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235805000",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542968",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Customisation",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1304630737",
+          "variationid": "1387881",
+          "name": "Regular Milk",
+          "groupname": "Customisation",
+          "price": "140.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "9",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        },
+        {
+          "id": "1301256072",
+          "variationid": "2001044",
+          "name": "Oat Milk",
+          "groupname": "Customisation",
+          "price": "170.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "27",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Oreo Obsession",
+      "item_attributeid": "1",
+      "itemdescription": "Velvety Smoothness Meets Crunchy Oreo",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781464530_2026_05_07_15_04_07_Oreo_Obsession_2.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=991e64c2c86123661789018e4154f17c52ed952e2aca2537155b35bf6e91d9e3",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1235806177",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542968",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": "",
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Customisation",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1285306812",
+          "variationid": "1590487",
+          "name": "Regular",
+          "groupname": "Customisation",
+          "price": "20.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "25",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        },
+        {
+          "id": "1285306816",
+          "variationid": "1590488",
+          "name": "Chilled",
+          "groupname": "Customisation",
+          "price": "20.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "26",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Water Bottle",
+      "item_attributeid": "1",
+      "itemdescription": "1 Litre Mineral Water Bottle",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17797113500_2026_05_25_17_45_41_IMG_6431.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=687979167d471368fea385986623ff9a75bc47d42c820497ad4affec5ee8eaf2",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    },
+    {
+      "itemid": "1301229748",
+      "itemallowvariation": "1",
+      "itemrank": "1",
+      "item_categoryid": "542968",
+      "item_ordertype": "2,1,3",
+      "item_packingcharges": "0",
+      "itemallowaddon": "0",
+      "itemaddonbasedon": "0",
+      "item_favorite": "0",
+      "ignore_taxes": "0",
+      "ignore_discounts": "0",
+      "in_stock": "2",
+      "sap_code": null,
+      "cuisine": [
+        
+      ],
+      "variation_groupname": "Customisation",
+      "is_combo": "0",
+      "variation": [
+        {
+          "id": "1304630740",
+          "variationid": "1387881",
+          "name": "Regular Milk",
+          "groupname": "Customisation",
+          "price": "140.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "9",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        },
+        {
+          "id": "1301256075",
+          "variationid": "2001044",
+          "name": "Oat Milk",
+          "groupname": "Customisation",
+          "price": "170.00",
+          "markup_price": "",
+          "active": "1",
+          "item_packingcharges": "0",
+          "variationrank": "27",
+          "addon": [
+            
+          ],
+          "variationallowaddon": 0,
+          "sap_code": ""
+        }
+      ],
+      "addon": [
+        
+      ],
+      "is_recommend": "0",
+      "itemname": "Banarasi Paan Fusion",
+      "item_attributeid": "1",
+      "itemdescription": "",
+      "minimumpreparationtime": "",
+      "price": "0",
+      "active": "1",
+      "markup_price": "",
+      "item_tags": [
+        
+      ],
+      "item_info": {
+        "spice_level": "not-applicable"
+      },
+      "item_image_url": "https://online-logo.s3.ap-southeast-1.amazonaws.com/homewebsite/24475/thumb_17781466090_2026_05_07_15_06_42_Banarasi_Paan.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWOP3TNH4KFH6V3P5%2F20260526%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260526T093216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=49c35e9258267daf11c7e13f1d4242f392bbf255562ebd12b1ad045bab4df547",
+      "item_tax": "60610,60611",
+      "tax_inclusive": true,
+      "gst_type": "services"
+    }
+  ],
+  "variations": [
+    {
+      "variationid": "97599",
+      "name": "Medium Size 8\"",
+      "groupname": "Size",
+      "status": "1"
+    },
+    {
+      "variationid": "97600",
+      "name": "King Size 12\"",
+      "groupname": "Size",
+      "status": "1"
+    },
+    {
+      "variationid": "1387881",
+      "name": "Regular Milk",
+      "groupname": "Customisation",
+      "status": "1"
+    },
+    {
+      "variationid": "1590487",
+      "name": "Regular",
+      "groupname": "Customisation",
+      "status": "1"
+    },
+    {
+      "variationid": "1590488",
+      "name": "Chilled",
+      "groupname": "Customisation",
+      "status": "1"
+    },
+    {
+      "variationid": "2001044",
+      "name": "Oat Milk",
+      "groupname": "Customisation",
+      "status": "1"
+    }
+  ],
+  "addongroups": [
+    {
+      "addongroupid": "304421",
+      "addongroup_rank": "10",
+      "active": "1",
+      "addongroupitems": [
+        {
+          "addonitemid": "5907582",
+          "addonitem_name": "Extra Cheese",
+          "addonitem_price": "90",
+          "active": "1",
+          "attributes": "1",
+          "addonitem_rank": "2",
+          "sap_code": ""
+        }
+      ],
+      "addongroup_name": "Addons"
+    },
+    {
+      "addongroupid": "304621",
+      "addongroup_rank": "7",
+      "active": "1",
+      "addongroupitems": [
+        {
+          "addonitemid": "5914805",
+          "addonitem_name": "Himalayan Salted",
+          "addonitem_price": "0",
+          "active": "1",
+          "attributes": "1",
+          "addonitem_rank": "1",
+          "sap_code": ""
+        },
+        {
+          "addonitemid": "5914811",
+          "addonitem_name": "Peri Peri Masala",
+          "addonitem_price": "10",
+          "active": "1",
+          "attributes": "1",
+          "addonitem_rank": "3",
+          "sap_code": ""
+        }
+      ],
+      "addongroup_name": "Sprinkles"
+    },
+    {
+      "addongroupid": "328114",
+      "addongroup_rank": "9",
+      "active": "1",
+      "addongroupitems": [
+        {
+          "addonitemid": "6703115",
+          "addonitem_name": "Extra Cheese",
+          "addonitem_price": "40",
+          "active": "1",
+          "attributes": "1",
+          "addonitem_rank": "1",
+          "sap_code": ""
+        }
+      ],
+      "addongroup_name": "Addons"
+    },
+    {
+      "addongroupid": "1179114",
+      "addongroup_rank": "6",
+      "active": "1",
+      "addongroupitems": [
+        {
+          "addonitemid": "36544264",
+          "addonitem_name": "Lettuce",
+          "addonitem_price": "10",
+          "active": "1",
+          "attributes": "1",
+          "addonitem_rank": "1",
+          "sap_code": ""
+        }
+      ],
+      "addongroup_name": "Addons"
+    },
+    {
+      "addongroupid": "1436890",
+      "addongroup_rank": "8",
+      "active": "1",
+      "addongroupitems": [
+        {
+          "addonitemid": "47050633",
+          "addonitem_name": "Filler Cheese (50g)",
+          "addonitem_price": "0",
+          "active": "1",
+          "attributes": "1",
+          "addonitem_rank": "1",
+          "sap_code": ""
+        },
+        {
+          "addonitemid": "55828783",
+          "addonitem_name": "Tom Mayo (50g)",
+          "addonitem_price": "0",
+          "active": "1",
+          "attributes": "1",
+          "addonitem_rank": "3",
+          "sap_code": ""
+        }
+      ],
+      "addongroup_name": "Dressed With"
+    }
+  ],
+  "attributes": [
+    {
+      "attributeid": "1",
+      "attribute": "veg",
+      "active": "1"
+    }
+  ],
+  "taxes": [
+    {
+      "taxid": "60610",
+      "taxname": "CGST",
+      "tax": "2.5",
+      "taxtype": "1",
+      "tax_ordertype": "1,2,3",
+      "active": "1",
+      "tax_coreortotal": "2",
+      "tax_taxtype": "2",
+      "rank": "1",
+      "consider_in_core_amount": "0",
+      "description": ""
+    },
+    {
+      "taxid": "60611",
+      "taxname": "SGST",
+      "tax": "2.5",
+      "taxtype": "1",
+      "tax_ordertype": "1,2,3",
+      "active": "1",
+      "tax_coreortotal": "2",
+      "tax_taxtype": "2",
+      "rank": "2",
+      "consider_in_core_amount": "0",
+      "description": ""
+    }
+  ],
+  "discounts": [
+    
+  ],
+  "serverdatetime": "2026-05-26 15:02:16",
+  "db_version": "1.0",
+  "application_version": "4.0",
+  "http_code": 200
+}

@@ -1,0 +1,415 @@
+{
+  "8185399": {
+    "alt": "Choco Lava",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-5741-1782738378.jpeg.webp",
+    "score": 90,
+    "name": "Choco Lava Cake",
+    "local": "/images/menu/8185399.webp"
+  },
+  "1235799471": {
+    "alt": "Supreme",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9155-1782625582.jpg.webp",
+    "score": 999,
+    "name": "Supreme Burger",
+    "local": "/images/menu/1235799471.webp"
+  },
+  "1235799472": {
+    "alt": "Chilli Lava",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-4467-1782738381.jpeg.webp",
+    "score": 999,
+    "name": "Chilli Lava Burger",
+    "local": "/images/menu/1235799472.webp"
+  },
+  "1235799475": {
+    "alt": "Paneer",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-5271-1782577360.jpeg.webp",
+    "score": 999,
+    "name": "Paneer Burger",
+    "local": "/images/menu/1235799475.webp"
+  },
+  "1235799476": {
+    "alt": "Maharaja",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9893-1782577357.jpeg.webp",
+    "score": 999,
+    "name": "Maharaja Burger",
+    "local": "/images/menu/1235799476.webp"
+  },
+  "1235799477": {
+    "alt": "Chatpata Tikki",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-8729-1782577307.jpeg.webp",
+    "score": 999,
+    "name": "Chatpata Naan",
+    "local": "/images/menu/1235799477.webp"
+  },
+  "1235799478": {
+    "alt": "Chatpata Cheese",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9775-1782625585.jpg.webp",
+    "score": 999,
+    "name": "Cheese Chatpata Naan",
+    "local": "/images/menu/1235799478.webp"
+  },
+  "1235802964": {
+    "alt": "Margherita",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-5487-1783764712.jpg.webp",
+    "score": 999,
+    "name": "Margherita Pizza",
+    "local": "/images/menu/1235802964.webp"
+  },
+  "1235803598": {
+    "alt": "Veggie Loaded",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-3735-1783764714.jpg.webp",
+    "score": 999,
+    "name": "Veggie Loaded Pizza",
+    "local": "/images/menu/1235803598.webp"
+  },
+  "1235803599": {
+    "alt": "Golden Corn",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-3759-1783764715.jpg.webp",
+    "score": 999,
+    "name": "Golden Corn Pizza",
+    "local": "/images/menu/1235803599.webp"
+  },
+  "1235803600": {
+    "alt": "Pepe Paneer",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9632-1783764717.jpg.webp",
+    "score": 999,
+    "name": "Pepe Paneer Pizza",
+    "local": "/images/menu/1235803600.webp"
+  },
+  "1235803601": {
+    "alt": "All In One",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-4179-1783764719.jpg.webp",
+    "score": 999,
+    "name": "All In One Pizza",
+    "local": "/images/menu/1235803601.webp"
+  },
+  "1235804991": {
+    "alt": "Salted",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-6182-1782625576.jpg.webp",
+    "score": 999,
+    "name": "Salted Fries",
+    "local": "/images/menu/1235804991.webp"
+  },
+  "1235804992": {
+    "alt": "Peri Peri",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-8637-1782738374.jpg.webp",
+    "score": 999,
+    "name": "Peri Peri Fries",
+    "local": "/images/menu/1235804992.webp"
+  },
+  "1235804997": {
+    "alt": "Virgin Mojito",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7891-1782625542.jpg.webp",
+    "score": 100,
+    "name": "Virgin Mojito",
+    "local": "/images/menu/1235804997.webp"
+  },
+  "1235804999": {
+    "alt": "Cold Coffee Craze",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-3718-1783771513.jpg.webp",
+    "score": 100,
+    "name": "Cold Coffee Craze",
+    "local": "/images/menu/1235804999.webp"
+  },
+  "1235805000": {
+    "alt": "Oreo Obsession",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9872-1783764722.jpg.webp",
+    "score": 100,
+    "name": "Oreo Obsession",
+    "local": "/images/menu/1235805000.webp"
+  },
+  "1235806177": {
+    "alt": "Water Bottle",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-5675-1783764724.png.webp",
+    "score": 100,
+    "name": "Water Bottle",
+    "local": "/images/menu/1235806177.webp"
+  },
+  "1235807472": {
+    "alt": "Stuffed Cheese",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-5379-1782738327.jpg.webp",
+    "score": 999,
+    "name": "Stuff Cheese Garlic Bread",
+    "local": "/images/menu/1235807472.webp"
+  },
+  "1235807473": {
+    "alt": "Stuffed Cheese & Corn",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-3128-1782738314.jpg.webp",
+    "score": 999,
+    "name": "Stuff Corn Garlic Bread",
+    "local": "/images/menu/1235807473.webp"
+  },
+  "1235807474": {
+    "alt": "Stuffed Supreme",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9651-1782738308.jpg.webp",
+    "score": 999,
+    "name": "Stuff Supreme Garlic Bread",
+    "local": "/images/menu/1235807474.webp"
+  },
+  "1235807475": {
+    "alt": "Loaf Cheese",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-3676-1782738311.jpg.webp",
+    "score": 999,
+    "name": "Loaf Cheese Garlic Bread",
+    "local": "/images/menu/1235807475.webp"
+  },
+  "1235817221": {
+    "alt": "Chilli Garlic",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9232-1782625614.png.webp",
+    "score": 999,
+    "name": "Chilli Garlic Dip",
+    "local": "/images/menu/1235817221.webp"
+  },
+  "1235817223": {
+    "alt": "Liquid Cheese",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9425-1782738438.jpg.webp",
+    "score": 100,
+    "name": "Liquid Cheese",
+    "local": "/images/menu/1235817223.webp"
+  },
+  "1235817224": {
+    "alt": "Mayo",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9183-1782577328.jpg.webp",
+    "score": 999,
+    "name": "Mayo Dip",
+    "local": "/images/menu/1235817224.webp"
+  },
+  "1235817225": {
+    "alt": "Burger Sause",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9549-1782738433.jpg.webp",
+    "score": 999,
+    "name": "Burger Sause",
+    "local": "/images/menu/1235817225.webp"
+  },
+  "1235879171": {
+    "alt": "Cheese Slice",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-6761-1783698908.jpg.webp",
+    "score": 100,
+    "name": "Cheese Slice",
+    "local": "/images/menu/1235879171.webp"
+  },
+  "1246597169": {
+    "alt": "Ras Malai Retreat",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-4847-1783764726.png.webp",
+    "score": 100,
+    "name": "Ras Malai Retreat",
+    "local": "/images/menu/1246597169.webp"
+  },
+  "1248034877": {
+    "alt": "Jain Pizza",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-2175-1783764727.jpg.webp",
+    "score": 100,
+    "name": "Jain Pizza",
+    "local": "/images/menu/1248034877.webp"
+  },
+  "1250936248": {
+    "alt": "Crispy Veg",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7315-1782738401.jpg.webp",
+    "score": 999,
+    "name": "Crispy Wraproll",
+    "local": "/images/menu/1250936248.webp"
+  },
+  "1250936249": {
+    "alt": "Paneer Patola",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9345-1782625572.jpg.webp",
+    "score": 999,
+    "name": "Paneer Wraproll",
+    "local": "/images/menu/1250936249.webp"
+  },
+  "1256647960": {
+    "alt": "Aloo Tikki",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9583-1782738418.jpg.webp",
+    "score": 999,
+    "name": "Aloo Tikki Burger",
+    "local": "/images/menu/1256647960.webp"
+  },
+  "1260897616": {
+    "alt": "Strawberry Swirl",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9184-1782625611.jpg.webp",
+    "score": 999,
+    "name": "Strawberry Malai Cake",
+    "local": "/images/menu/1260897616.webp"
+  },
+  "1272145652": {
+    "alt": "Strawberry Sensation",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7447-1783771515.jpg.webp",
+    "score": 100,
+    "name": "Strawberry Sensation",
+    "local": "/images/menu/1272145652.webp"
+  },
+  "1279905805": {
+    "alt": "Dressing",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9483-1782577239.jpg.webp",
+    "score": 999,
+    "name": "Dressing Fries",
+    "local": "/images/menu/1279905805.webp"
+  },
+  "1281823413": {
+    "alt": "Spicy Lemonade",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7957-1782625533.jpg.webp",
+    "score": 100,
+    "name": "Spicy Lemonade",
+    "local": "/images/menu/1281823413.webp"
+  },
+  "1289043884": {
+    "alt": "Lettuce",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-8133-1783764770.jpg.webp",
+    "score": 100,
+    "name": "Lettuce",
+    "local": "/images/menu/1289043884.webp"
+  },
+  "1301229748": {
+    "alt": "Banarasi Paan Fusion",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-8947-1783764731.jpg.webp",
+    "score": 100,
+    "name": "Banarasi Paan Fusion",
+    "local": "/images/menu/1301229748.webp"
+  },
+  "1301351067": {
+    "alt": "Vadapav",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-8531-1782738407.jpg.webp",
+    "score": 999,
+    "name": "Vadapav Burger",
+    "local": "/images/menu/1301351067.webp"
+  },
+  "1304782937": {
+    "alt": "Fusion Paneer",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7554-1782577233.jpeg.webp",
+    "score": 999,
+    "name": "Fusion Paneer Burger",
+    "local": "/images/menu/1304782937.webp"
+  },
+  "1304877615": {
+    "alt": "Paneer Herbinaro",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-4459-1782625520.jpg.webp",
+    "score": 999,
+    "name": "Paneer Herbinaro Burger",
+    "local": "/images/menu/1304877615.webp"
+  },
+  "1304877616": {
+    "alt": "Chilli Avocado",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7195-1782577229.jpg.webp",
+    "score": 999,
+    "name": "Chilli Avocado Burger",
+    "local": "/images/menu/1304877616.webp"
+  },
+  "1305321573": {
+    "alt": "Mango Melt",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9955-1782577310.jpg.webp",
+    "score": 999,
+    "name": "Mango Malai Cake",
+    "local": "/images/menu/1305321573.webp"
+  },
+  "1306854005": {
+    "alt": "Jain Burger",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-1644-1782625579.jpg.webp",
+    "score": 100,
+    "name": "Jain Burger",
+    "local": "/images/menu/1306854005.webp"
+  },
+  "1306854133": {
+    "alt": "Jain Burger ( Without Onion & Garlic )",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7579-1782738391.jpg.webp",
+    "score": 999,
+    "name": "Jain Cheese Burger ( Without Onion & Garlic )",
+    "local": "/images/menu/1306854133.webp"
+  },
+  "1306854134": {
+    "alt": "Paneer",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-5271-1782577360.jpeg.webp",
+    "score": 999,
+    "name": "Jain Paneer Burger ( Without Onion & Garlic )",
+    "local": "/images/menu/1306854134.webp"
+  },
+  "1306854136": {
+    "alt": "Maharaja",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9893-1782577357.jpeg.webp",
+    "score": 999,
+    "name": "Jain Maharaja Burger ( Without Onion & Garlic )",
+    "local": "/images/menu/1306854136.webp"
+  },
+  "1306854289": {
+    "alt": "Jain Wraproll ( Without Onion & Garlic )",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-8881-1782625563.jpg.webp",
+    "score": 100,
+    "name": "Jain Wraproll ( Without Onion & Garlic )",
+    "local": "/images/menu/1306854289.webp"
+  },
+  "1306855051": {
+    "alt": "Spring Rolls 5pc",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-4616-1782738350.jpg.webp",
+    "score": 100,
+    "name": "Spring Rolls 5pc",
+    "local": "/images/menu/1306855051.webp"
+  },
+  "1306855052": {
+    "alt": "Veggie Sticks 6pc",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7466-1782577266.png.webp",
+    "score": 100,
+    "name": "Veggie Sticks 6pc",
+    "local": "/images/menu/1306855052.webp"
+  },
+  "1306855185": {
+    "alt": "Jain Spring Rolls ( Without Onion & Garlic )",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-6633-1782625545.jpg.webp",
+    "score": 100,
+    "name": "Jain Spring Rolls ( Without Onion & Garlic )",
+    "local": "/images/menu/1306855185.webp"
+  },
+  "1306855279": {
+    "alt": "Jain Peri Peri ( Without Onion & Garlic )",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-5193-1782625559.jpg.webp",
+    "score": 999,
+    "name": "Jain Peri Peri Fries ( Without Onion & Garlic )",
+    "local": "/images/menu/1306855279.webp"
+  },
+  "1306855300": {
+    "alt": "Dairy Free Burger",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9342-1782625598.jpg.webp",
+    "score": 999,
+    "name": "Jain Cashew Cheese Burger ( Without Onion & Garlic )",
+    "local": "/images/menu/1306855300.webp"
+  },
+  "1306855349": {
+    "alt": "Raw Banana Samosa 5pc ( Without Onion & Garlic )",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-6926-1782738367.png.webp",
+    "score": 100,
+    "name": "Raw Banana Samosa 5pc ( Without Onion & Garlic )",
+    "local": "/images/menu/1306855349.webp"
+  },
+  "1306899678": {
+    "alt": "Dairy Free Burger",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9342-1782625598.jpg.webp",
+    "score": 999,
+    "name": "Veg Burger ( Dairy Free )",
+    "local": "/images/menu/1306899678.webp"
+  },
+  "1306900280": {
+    "alt": "Mango Melt",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9955-1782577310.jpg.webp",
+    "score": 999,
+    "name": "Mango Malai Cake ( Dairy Free )",
+    "local": "/images/menu/1306900280.webp"
+  },
+  "1306900281": {
+    "alt": "Strawberry Swirl",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-9184-1782625611.jpg.webp",
+    "score": 999,
+    "name": "Strawberry Malai Cake ( Dairy Free )",
+    "local": "/images/menu/1306900281.webp"
+  },
+  "1307356506": {
+    "alt": "Cheesy Rounders 8pc",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-7669-1781971570.jpg.webp",
+    "score": 100,
+    "name": "Cheesy Rounders 8pc",
+    "local": "/images/menu/1307356506.webp"
+  },
+  "1307418027": {
+    "alt": "Jumbo Paneer",
+    "src": "https://cdn.uengage.io/uploads/6442/crops/160/image-3865-1782738343.jpg.webp",
+    "score": 999,
+    "name": "Jumbo Paneer Burger",
+    "local": "/images/menu/1307418027.webp"
+  }
+}

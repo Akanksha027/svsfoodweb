@@ -20,14 +20,12 @@ export function Navbar() {
         <Link
           href="/menu"
           className="font-mouse-memoirs hover:scale-105 transition-all duration-300 flex items-center justify-center text-[1.3vw] max-md:text-[4vw] uppercase tracking-wide text-[var(--cream)] bg-[var(--red)] px-[2.4vw] py-[0.8vw] max-md:px-[6vw] max-md:py-[2.2vw] rounded-full hover:bg-black select-none"
-          data-cursor-hide="true"
         >
           BURGERS
         </Link>
 
         <div className="relative">
           <button
-            data-cursor-hide="true"
             className={`hover:scale-105 flex items-center gap-[.8vw] max-md:gap-[2.5vw] px-[2vw] py-[0.8vw] max-md:px-[5vw] max-md:py-[2.2vw] rounded-full cursor-pointer transition-all duration-400 font-mouse-memoirs text-[1.3vw] max-md:text-[4vw] uppercase tracking-wide ${isMenuOpen
               ? 'bg-[var(--red)] border-[.15vw] max-md:border-[.4vw] border-[var(--red)] text-white'
               : 'bg-transparent border-[.15vw] max-md:border-[.4vw] border-black/20 text-[var(--dark)] hover:border-black'

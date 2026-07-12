@@ -5,10 +5,10 @@ import { useLayoutEffect, useRef, useState, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-import { AnimatedCursor } from "@/components/AnimatedCursor";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import { Navbar } from "@/components/Navbar";
 import { Preloader } from "@/components/Preloader";
+import { FEATURED_IMAGES } from "@/data/menu";
 
 gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 
@@ -17,13 +17,13 @@ const IMG = {
   burgerHero:   "/images/burgerHero.png",      // removebg – HERO overlay
   cheesyBurger: "/images/cheesyBurger.png",   // black bg, pacman eyes
   burgerHands:  "/images/burgerHands.png",     // cartoon hands burger
-  burgerH:      "/images/burgerH.png",         // woman holding burger
+  burgerH:      FEATURED_IMAGES.burgerH,
   burgerham:    "/images/burgerham.png",
   burgerwithhands: "/images/4kcheeseburger.png",
   cheesyBurgerImg: "/images/cheesyBurger.webp",
-  about1:       "/images/about1.png",          // diner photo
-  about2:       "/images/about2.png",          // burger on board
-  about3:       "/images/about-3.webp",        // 3rd about image
+  about1:       FEATURED_IMAGES.about1,
+  about2:       FEATURED_IMAGES.about2,
+  about3:       FEATURED_IMAGES.about3,
   lettuce:      "/images/lettuce.png",
   tomato:       "/images/tomato.png",
   cheese:       "/images/cheese.png",
@@ -169,7 +169,7 @@ function AboutSection() {
       </div>
 
       <div className="about-btn-wrap">
-        <a href="/menu" className="about-blob-btn" data-cursor-hide="true">
+        <a href="/menu" className="about-blob-btn">
           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="-10 -10 602 475" preserveAspectRatio="none" className="about-blob-svg">
             <path stroke="#ffffff" strokeWidth="10" fill="#F91914" d="M310.777 0.20434C424.154 2.91791 540.733 50.9739 574.176 159.34C606.479 264.014 533.962 365.999 442.064 425.623C364.995 475.626 270.863 455.893 193.524 406.309C93.8313 342.395 -27.3608 259.503 5.48889 145.729C40.0621 25.9857 186.179 -2.77783 310.777 0.20434Z" />
           </svg>
@@ -332,16 +332,16 @@ function IngredientsSection() {
         
         {/* Floating ingredients */}
         <div className="ing-float ing-float-1" style={{ top: "12%", left: "12%" }}>
-          <Image src="/images/lettuce.webp" alt="Lettuce" width={300} height={300} style={{ width: "20vw", height: "auto" }} />
+          <Image className="ing-float-img ing-float-img-lg" src="/images/lettuce.webp" alt="Lettuce" width={300} height={300} />
         </div>
         <div className="ing-float ing-float-2" style={{ top: "35%", right: "12%" }}>
-          <Image src="/images/tomato.webp" alt="Tomato" width={300} height={300} style={{ width: "16vw", height: "auto" }} />
+          <Image className="ing-float-img ing-float-img-sm" src="/images/tomato.webp" alt="Tomato" width={300} height={300} />
         </div>
         <div className="ing-float ing-float-3" style={{ top: "60%", left: "15%" }}>
-          <Image src="/images/cheese.webp" alt="Cheese" width={300} height={300} style={{ width: "22vw", height: "auto" }} />
+          <Image className="ing-float-img ing-float-img-lg" src="/images/cheese.webp" alt="Cheese" width={300} height={300} />
         </div>
         <div className="ing-float ing-float-4" style={{ bottom: "10%", right: "20%" }}>
-          <Image src="/images/meat.webp" alt="Meat" width={300} height={300} style={{ width: "22vw", height: "auto" }} />
+          <Image className="ing-float-img ing-float-img-lg" src="/images/meat.webp" alt="Meat" width={300} height={300} />
         </div>
       </div>
 
@@ -413,9 +413,7 @@ function MapSection() {
           TRAVELS WITH YOU
         </h2>
         <p className="map-desc">
-          Freshly packed smash burgers, ready to go wherever you<br/>
-          crave. From our flat-top to any corner of the globe, we<br/>
-          ensure every layer stays hot and juicy.
+          Freshly packed smash burgers, ready to go wherever you crave. From our flat-top to any corner of the globe, we ensure every layer stays hot and juicy.
         </p>
       </div>
 
@@ -443,28 +441,28 @@ function MapSection() {
       <div className="map-photo-wrap map-photo-2">
         <p className="map-photo-label map-label-mumbai">MUMBAI</p>
         <div className="map-photo-img-wrap">
-          <Image src="/images/burger2.webp" alt="Mumbai" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          <Image src={FEATURED_IMAGES.maharaja} alt="Mumbai" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         </div>
       </div>
 
       <div className="map-photo-wrap map-photo-1">
         <p className="map-photo-label">LUCKNOW</p>
         <div className="map-photo-img-wrap">
-          <Image src="/images/berlin.webp" alt="Lucknow" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          <Image src={FEATURED_IMAGES.paneerHerbinaro} alt="Lucknow" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         </div>
       </div>
 
       <div className="map-photo-wrap map-photo-3">
         <p className="map-photo-label map-label-delhi">DELHI</p>
         <div className="map-photo-img-wrap">
-          <Image src="/images/delhi.jpg" alt="Delhi" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          <Image src={FEATURED_IMAGES.dressingFries} alt="Delhi" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         </div>
       </div>
 
       <div className="map-photo-wrap map-photo-4">
         <p className="map-photo-label map-label-kolkata">KOLKATA</p>
         <div className="map-photo-img-wrap">
-          <Image src="/images/kolkata.jpg" alt="Kolkata" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          <Image src={FEATURED_IMAGES.burgerH} alt="Kolkata" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         </div>
       </div>
     </section>
@@ -486,9 +484,7 @@ function CtaSection() {
             FEEL THE<br />CHANGE
           </h2>
           <p className="cta-desc">
-            Smashed for the bold, built for the hungry. Dive into a<br />
-            legendary craft experience where every crispy edge and<br />
-            juicy layer rules.
+            Smashed for the bold, built for the hungry. Dive into a legendary craft experience where every crispy edge and juicy layer rules.
           </p>
           <button className="cta-btn">ORDER NOW</button>
         </div>
@@ -498,7 +494,7 @@ function CtaSection() {
         </div>
         
         <div className="cta-image-wrapper">
-          <Image src="/images/cta.webp" alt="Feel the change" fill style={{ objectFit: 'cover' }} />
+          <Image src={FEATURED_IMAGES.burgerH} alt="Feel the change" fill style={{ objectFit: 'cover' }} />
         </div>
       </div>
     </section>
@@ -591,7 +587,6 @@ export default function Home() {
         <Preloader onComplete={() => setPreloaderDone(true)} />
       )}
       <SmoothScroll />
-      <AnimatedCursor />
       <div className="grain-overlay" />
       <Navbar />
       <Hero />

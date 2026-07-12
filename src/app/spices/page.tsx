@@ -6,7 +6,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { Navbar } from "@/components/Navbar";
-import { AnimatedCursor } from "@/components/AnimatedCursor";
 import { SmoothScroll } from "@/components/SmoothScroll";
 
 gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
@@ -86,7 +85,6 @@ export default function SpicesPage() {
   return (
     <div ref={containerRef} className="spices-page-wrapper">
       <SmoothScroll />
-      <AnimatedCursor />
       <Navbar />
 
       <main className="relative w-full h-screen overflow-hidden flex flex-col items-center justify-center pt-20">
@@ -169,7 +167,7 @@ export default function SpicesPage() {
             <p className="text40 w-[25vw] max-md:text-center uppercase max-md:w-full ml-[1vw] text-white font-mouse-memoirs leading-[1.1]">
               We didn't just pick ingredients off a list. We thought about where they come from, why they matter, and what they bring to the burger.
             </p>
-            <a data-cursor-hide="true" type="link-btn" className="relative w-fit mx-auto border-none bg-transparent p-0 block cursor-pointer outline-none select-none" data-anm-btn="btn" data-wf--btn-blob--variant="secondary" href="/menu">
+            <a type="link-btn" className="relative w-fit mx-auto border-none bg-transparent p-0 block cursor-pointer outline-none select-none" data-anm-btn="btn" data-wf--btn-blob--variant="secondary" href="/menu">
               <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="-10 -10 602 475" preserveAspectRatio="none" data-anm-btn="svg" className="absolute inset-0 w-full h-full z-0 pointer-events-none">
                 <path stroke="#ffffff" strokeWidth="10" fill="#F91914" d="M310.777 0.20434C424.154 2.91791 540.733 50.9739 574.176 159.34C606.479 264.014 533.962 365.999 442.064 425.623C364.995 475.626 270.863 455.893 193.524 406.309C93.8313 342.395 -27.3608 259.503 5.48889 145.729C40.0621 25.9857 186.179 -2.77783 310.777 0.20434Z" />
               </svg>
@@ -330,7 +328,7 @@ function CtaSection() {
             legendary craft experience where every crispy edge and<br />
             juicy layer rules.
           </p>
-          <a data-cursor-hide="true" type="link-btn" className="relative w-fit border-none bg-transparent p-0 block cursor-pointer outline-none select-none mt-[1vw]" data-anm-btn="btn" data-wf--btn-blob--variant="secondary" href="/menu">
+          <a type="link-btn" className="relative w-fit border-none bg-transparent p-0 block cursor-pointer outline-none select-none mt-[1vw]" data-anm-btn="btn" data-wf--btn-blob--variant="secondary" href="/menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="-10 -10 602 475" preserveAspectRatio="none" data-anm-btn="svg" className="absolute inset-0 w-full h-full z-0 pointer-events-none">
               <path stroke="#ffffff" strokeWidth="10" fill="#F91914" d="M310.777 0.20434C424.154 2.91791 540.733 50.9739 574.176 159.34C606.479 264.014 533.962 365.999 442.064 425.623C364.995 475.626 270.863 455.893 193.524 406.309C93.8313 342.395 -27.3608 259.503 5.48889 145.729C40.0621 25.9857 186.179 -2.77783 310.777 0.20434Z" />
             </svg>
