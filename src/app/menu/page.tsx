@@ -311,7 +311,7 @@ function Footer() {
       </div>
 
       <div className="footer-giant-crav">
-        <h1 className="footer-crav-text">2YUM</h1>
+        <h1 className="footer-crav-text">SVSFood</h1>
         
         <div className="footer-floating footer-cheese">
           <div className={`pop-inner ${isVisible ? 'pop-up-1' : 'pop-hidden'}`}>
@@ -332,3 +332,4 @@ function Footer() {
     </footer>
   );
 }
+

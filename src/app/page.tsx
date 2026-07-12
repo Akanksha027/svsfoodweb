@@ -81,7 +81,7 @@ function Hero() {
           <span className="hero-row-top">THE BURGER</span>
         </h1>
         <p className="hero-crav-row" style={{ overflow: "hidden" }}>
-          <span className="hero-crav-text">2YUM</span>
+          <span className="hero-crav-text">SVSFood</span>
         </p>
       </div>
 
@@ -89,7 +89,7 @@ function Hero() {
       <div className="hero-burger-img-wrap">
         <Image
           src="/images/hamburgerrr.png"
-          alt="2YUM Signature Smash Burger"
+          alt="SVSFood Signature Smash Burger"
           width={1000}
           height={1000}
           priority
@@ -116,7 +116,7 @@ function Hero() {
 
 // ── Marquee ───────────────────────────────────────
 function Marquee() {
-  const items = ["SMASHED", "FRESH", "CREAMY", "BOLD", "2YUM", "SMASHED", "FRESH", "CREAMY", "BOLD", "2YUM"];
+  const items = ["SMASHED", "FRESH", "CREAMY", "BOLD", "SVSFood", "SMASHED", "FRESH", "CREAMY", "BOLD", "SVSFood"];
   return (
     <section className="marquee-wrap">
       <div className="marquee-track">
@@ -164,7 +164,7 @@ function AboutSection() {
           JUICY CHEESY<br />FULLY LOADED
         </h2>
         <p className="about-desc">
-          2YUM is back and bolder than ever. Honoring our rich roots, we bring you the ultimate smashed experience fully loaded, hot, and crafted fresh.
+          SVSFood is back and bolder than ever. Honoring our rich roots, we bring you the ultimate smashed experience fully loaded, hot, and crafted fresh.
         </p>
       </div>
 
@@ -547,7 +547,7 @@ function Footer() {
       </div>
 
       <div className="footer-giant-crav">
-        <h1 className="footer-crav-text">2YUM</h1>
+        <h1 className="footer-crav-text">SVSFood</h1>
         
         <div className="footer-floating footer-cheese">
           <div className={`pop-inner ${isVisible ? 'pop-up-1' : 'pop-hidden'}`}>
@@ -606,3 +606,4 @@ export default function Home() {
     </main>
   );
 }
+

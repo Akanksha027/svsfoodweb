@@ -13,7 +13,7 @@ export function Navbar() {
         className="font-modak text-[12vw] md:text-[4.5vw] pt-[1vw] leading-none text-[var(--red)] hover:scale-105 transition-transform duration-300"
         style={{ WebkitTextStroke: "4px white", paintOrder: "stroke fill", textShadow: "0 4px 15px rgba(0,0,0,0.15)" }}
       >
-        2YUM
+        SVSFood
       </Link>
 
       <div className="flex items-center gap-[1vw] max-md:gap-[3vw]">
@@ -65,3 +65,4 @@ export function Navbar() {
     </header>
   );
 }
+
