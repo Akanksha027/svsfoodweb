@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Modak, Mouse_Memoirs, Nunito } from "next/font/google";
+import { CartRoot } from "@/components/CartRoot";
 import "./globals.css";
 
 // ── Display fonts ──────────────────────────────────
@@ -45,7 +46,7 @@ export default function RootLayout({
       className={`${modak.variable} ${mouseMemoirs.variable} ${nunito.variable} h-full`}
     >
       <body className="min-h-full antialiased" suppressHydrationWarning>
-        {children}
+        <CartRoot>{children}</CartRoot>
       </body>
     </html>
   );
