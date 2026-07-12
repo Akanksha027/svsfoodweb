@@ -14,20 +14,20 @@ gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 
 // ── Image paths (clean names) ──────────────────────
 const IMG = {
-  burgerHero:   "/images/burgerHero.png",      // removebg – HERO overlay
+  burgerHero: "/images/burgerHero.png",      // removebg – HERO overlay
   cheesyBurger: "/images/cheesyBurger.png",   // black bg, pacman eyes
-  burgerHands:  "/images/burgerHands.png",     // cartoon hands burger
-  burgerH:      FEATURED_IMAGES.burgerH,
-  burgerham:    "/images/burgerham.png",
+  burgerHands: "/images/burgerHands.png",     // cartoon hands burger
+  burgerH: FEATURED_IMAGES.burgerH,
+  burgerham: "/images/burgerham.png",
   burgerwithhands: "/images/4kcheeseburger.png",
   cheesyBurgerImg: "/images/cheesyBurger.webp",
-  about1:       FEATURED_IMAGES.about1,
-  about2:       FEATURED_IMAGES.about2,
-  about3:       FEATURED_IMAGES.about3,
-  lettuce:      "/images/lettuce.png",
-  tomato:       "/images/tomato.png",
-  cheese:       "/images/cheese.png",
-  meat:         "/images/meat.png",
+  about1: FEATURED_IMAGES.about1,
+  about2: FEATURED_IMAGES.about2,
+  about3: FEATURED_IMAGES.about3,
+  lettuce: "/images/lettuce.png",
+  tomato: "/images/tomato.png",
+  cheese: "/images/cheese.png",
+  meat: "/images/meat.png",
 };
 
 
@@ -102,14 +102,7 @@ function Hero() {
       <div className="badge-bold">BOLD<br />FLAVOR</div>
 
       {/* ── Bottom captions ── */}
-      <div className="hero-captions">
-        <p className="hero-caption">
-          Smashed hot on the flat top, our prime patties lock in ultimate juiciness under a caramelized crust.
-        </p>
-        <p className="hero-caption hero-caption-right">
-          Topped with melted cheddar and our signature chili honey glaze crafted to satisfy your cravings since 1997.
-        </p>
-      </div>
+
     </section>
   );
 }
@@ -240,16 +233,16 @@ function ExperienceSection() {
             FOOD THAT<br />FEELS GOOD
           </h2>
         </div>
-        
+
         <div className="exp-main-burger-wrap">
           <Image src={IMG.burgerwithhands} alt="Burger With Hands" width={1000} height={1000} style={{ width: "100%", height: "auto" }} />
-          
+
           <div className="exp-info-left">
             450 KCAL<br />
             HIGH PROTEIN<br />
             FRESH INGREDIENTS
           </div>
-          
+
           <div className="exp-info-right">
             100% ORGANIC<br />
             ZERO GUILT<br />
@@ -329,7 +322,7 @@ function IngredientsSection() {
             FLAVOR
           </h2>
         </div>
-        
+
         {/* Floating ingredients */}
         <div className="ing-float ing-float-1" style={{ top: "12%", left: "12%" }}>
           <Image className="ing-float-img ing-float-img-lg" src="/images/lettuce.webp" alt="Lettuce" width={300} height={300} />
@@ -492,7 +485,7 @@ function CtaSection() {
         <div className="cta-sticker-graphic">
           <Image src="/images/sticker.png" alt="Sticker Graphic" width={500} height={500} style={{ width: "100%", height: "auto", objectFit: "contain" }} />
         </div>
-        
+
         <div className="cta-image-wrapper">
           <Image src={FEATURED_IMAGES.burgerH} alt="Feel the change" fill style={{ objectFit: 'cover' }} />
         </div>
@@ -535,16 +528,16 @@ function Footer() {
           © 2026 — ALL RIGHTS RESERVED
         </div>
       </div>
-      
+
       <div className="footer-line"></div>
-      
+
       <div className="footer-mid">
         <p>SMASHED PATTIES • TOASTED BUNS • EST. 1997</p>
       </div>
 
       <div className="footer-giant-crav">
         <h1 className="footer-crav-text">SVSFood</h1>
-        
+
         <div className="footer-floating footer-cheese">
           <div className={`pop-inner ${isVisible ? 'pop-up-1' : 'pop-hidden'}`}>
             <Image src="/images/cheese.png" alt="Cheese" width={200} height={200} style={{ width: "100%", height: "auto", objectFit: "contain" }} />

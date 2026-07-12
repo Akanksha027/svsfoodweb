@@ -39,116 +39,118 @@ export function CartDrawer() {
     <>
       {/* Backdrop */}
       <div
-        className={`fixed inset-0 z-[1000] bg-black/40 transition-opacity duration-300 ${
+        className={`fixed inset-0 z-[1000] bg-black/50 transition-opacity duration-300 ${
           isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
         onClick={closeCart}
         aria-hidden={!isOpen}
       />
 
-      {/* Panel */}
+      {/* Panel — full width on phones, roomy sidebar on tablet/desktop */}
       <aside
-        className={`fixed top-0 right-0 z-[1001] h-full w-full max-w-md bg-[var(--cream)] shadow-2xl flex flex-col transition-transform duration-300 ease-out ${
+        className={`fixed top-0 right-0 z-[1001] h-[100dvh] w-full sm:w-[min(100%,28rem)] md:w-[min(100%,34rem)] lg:w-[min(100%,40rem)] bg-[var(--cream)] shadow-2xl flex flex-col transition-transform duration-300 ease-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
         aria-label="Shopping cart"
         aria-hidden={!isOpen}
       >
-        <header className="flex items-center justify-between px-5 py-4 border-b border-black/10">
-          <div>
-            <h2 className="font-mouse-memoirs uppercase text-2xl text-[var(--red)] leading-none">
+        <header className="flex items-center justify-between gap-4 px-5 sm:px-7 md:px-8 py-5 sm:py-6 border-b border-black/10 shrink-0">
+          <div className="min-w-0">
+            <h2 className="font-mouse-memoirs uppercase text-[clamp(1.75rem,6vw,2.75rem)] text-[var(--red)] leading-none">
               Your Cart
             </h2>
-            <p className="font-nunito text-sm font-bold text-black/50 mt-1">
+            <p className="font-nunito text-base sm:text-lg font-bold text-black/50 mt-1.5">
               {totalItems} {totalItems === 1 ? "item" : "items"}
             </p>
           </div>
           <button
             type="button"
             onClick={closeCart}
-            className="w-10 h-10 rounded-full bg-black/5 hover:bg-black/10 font-bold text-xl"
+            className="shrink-0 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-black/5 hover:bg-black/10 font-bold text-2xl sm:text-3xl flex items-center justify-center"
             aria-label="Close cart"
           >
             ✕
           </button>
         </header>
 
-        <div className="flex-1 overflow-y-auto px-5 py-4">
+        <div className="flex-1 overflow-y-auto overscroll-contain px-5 sm:px-7 md:px-8 py-5 sm:py-6">
           {items.length === 0 ? (
-            <div className="h-full flex flex-col items-center justify-center text-center gap-3 py-16">
-              <span className="text-5xl opacity-40">🛒</span>
-              <p className="font-mouse-memoirs uppercase text-xl text-black/40">
+            <div className="h-full min-h-[50vh] flex flex-col items-center justify-center text-center gap-4 py-16">
+              <span className="text-6xl sm:text-7xl opacity-40" aria-hidden>
+                🛒
+              </span>
+              <p className="font-mouse-memoirs uppercase text-2xl sm:text-3xl text-black/40">
                 Cart is empty
               </p>
-              <p className="font-nunito text-sm text-black/50 max-w-[220px]">
+              <p className="font-nunito text-base sm:text-lg text-black/50 max-w-[280px]">
                 Add burgers, pizza & more from the menu.
               </p>
               <button
                 type="button"
                 onClick={closeCart}
-                className="mt-2 bg-[var(--red)] text-white font-mouse-memoirs uppercase px-6 py-2.5 rounded-full"
+                className="mt-2 bg-[var(--red)] text-white font-mouse-memoirs uppercase text-lg sm:text-xl px-8 py-3.5 rounded-full"
               >
                 Browse Menu
               </button>
             </div>
           ) : (
-            <ul className="space-y-4">
+            <ul className="space-y-4 sm:space-y-5">
               {items.map((item) => (
                 <li
                   key={item.id}
-                  className="flex gap-3 bg-white rounded-2xl p-3 shadow-sm border border-black/5"
+                  className="flex gap-3 sm:gap-4 bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-4 shadow-sm border border-black/5"
                 >
-                  <div className="relative w-20 h-20 shrink-0 rounded-xl bg-[var(--cream)] overflow-hidden">
+                  <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 shrink-0 rounded-xl sm:rounded-2xl bg-[var(--cream)] overflow-hidden">
                     <Image
                       src={item.image || DEFAULT_MENU_IMAGE}
                       alt={item.name}
                       fill
-                      className="object-contain p-1"
-                      sizes="80px"
+                      className="object-contain p-1.5"
+                      sizes="(max-width: 640px) 96px, 128px"
                     />
                   </div>
 
-                  <div className="flex-1 min-w-0 flex flex-col">
+                  <div className="flex-1 min-w-0 flex flex-col gap-1">
                     <div className="flex items-start justify-between gap-2">
-                      <h3 className="font-modak text-[var(--red)] text-lg leading-tight">
+                      <h3 className="font-modak text-[var(--red)] text-[clamp(1.15rem,4vw,1.65rem)] leading-tight">
                         {item.name}
                       </h3>
                       <button
                         type="button"
                         onClick={() => removeItem(item.id)}
-                        className="text-black/30 hover:text-[var(--red)] text-sm font-bold shrink-0"
+                        className="text-black/30 hover:text-[var(--red)] text-lg sm:text-xl font-bold shrink-0 w-9 h-9 flex items-center justify-center rounded-full hover:bg-black/5"
                         aria-label={`Remove ${item.name}`}
                       >
                         ✕
                       </button>
                     </div>
-                    <p className="font-nunito font-extrabold text-sm text-black/70">
+                    <p className="font-nunito font-extrabold text-sm sm:text-base text-black/70">
                       ₹{Math.round(item.price)} each
                     </p>
 
-                    <div className="mt-auto flex items-center justify-between pt-2">
-                      <div className="flex items-center gap-2 bg-black/5 rounded-full px-1 py-1">
+                    <div className="mt-auto flex items-center justify-between gap-3 pt-2">
+                      <div className="flex items-center gap-1.5 sm:gap-2 bg-black/5 rounded-full p-1">
                         <button
                           type="button"
                           onClick={() => setQty(item.id, item.qty - 1)}
-                          className="w-8 h-8 rounded-full bg-white text-[var(--red)] font-bold text-lg leading-none shadow-sm"
+                          className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-white text-[var(--red)] font-bold text-xl leading-none shadow-sm"
                           aria-label="Decrease quantity"
                         >
                           −
                         </button>
-                        <span className="font-nunito font-extrabold w-6 text-center">
+                        <span className="font-nunito font-extrabold text-lg sm:text-xl min-w-[1.75rem] text-center">
                           {item.qty}
                         </span>
                         <button
                           type="button"
                           onClick={() => setQty(item.id, item.qty + 1)}
-                          className="w-8 h-8 rounded-full bg-[var(--red)] text-white font-bold text-lg leading-none"
+                          className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--red)] text-white font-bold text-xl leading-none"
                           aria-label="Increase quantity"
                         >
                           +
                         </button>
                       </div>
-                      <span className="font-nunito font-extrabold text-base">
+                      <span className="font-nunito font-extrabold text-lg sm:text-xl md:text-2xl whitespace-nowrap">
                         ₹{Math.round(item.price * item.qty)}
                       </span>
                     </div>
@@ -160,18 +162,18 @@ export function CartDrawer() {
         </div>
 
         {items.length > 0 && (
-          <footer className="border-t border-black/10 px-5 py-4 space-y-3 bg-white">
-            <div className="flex items-center justify-between">
-              <span className="font-mouse-memoirs uppercase text-lg text-black/60">
+          <footer className="border-t border-black/10 px-5 sm:px-7 md:px-8 py-5 sm:py-6 space-y-3.5 sm:space-y-4 bg-white shrink-0 pb-[max(1.25rem,env(safe-area-inset-bottom))]">
+            <div className="flex items-center justify-between gap-4">
+              <span className="font-mouse-memoirs uppercase text-xl sm:text-2xl text-black/60">
                 Total
               </span>
-              <span className="font-modak text-2xl text-[var(--red)] leading-none">
+              <span className="font-modak text-[clamp(1.75rem,5vw,2.5rem)] text-[var(--red)] leading-none">
                 ₹{Math.round(totalPrice)}
               </span>
             </div>
 
             {!meetsMin && (
-              <p className="font-nunito text-xs font-bold text-amber-700 bg-amber-50 rounded-lg px-3 py-2">
+              <p className="font-nunito text-sm sm:text-base font-bold text-amber-800 bg-amber-50 rounded-xl px-4 py-3">
                 Min order ₹{minOrder}. Add ₹{Math.round(minOrder - totalPrice)} more.
               </p>
             )}
@@ -180,7 +182,7 @@ export function CartDrawer() {
               href={meetsMin ? whatsappUrl : undefined}
               target="_blank"
               rel="noopener noreferrer"
-              className={`block text-center font-mouse-memoirs uppercase text-lg py-3.5 rounded-full transition-opacity ${
+              className={`block text-center font-mouse-memoirs uppercase text-xl sm:text-2xl py-4 sm:py-4.5 rounded-full transition-opacity ${
                 meetsMin
                   ? "bg-[#25D366] text-white hover:opacity-90"
                   : "bg-black/20 text-black/40 pointer-events-none"
@@ -189,17 +191,17 @@ export function CartDrawer() {
               Order on WhatsApp
             </a>
 
-            <div className="flex gap-2">
+            <div className="flex gap-3">
               <a
                 href={`tel:${RESTAURANT.contact}`}
-                className="flex-1 text-center font-mouse-memoirs uppercase py-3 rounded-full border-2 border-[var(--red)] text-[var(--red)]"
+                className="flex-1 text-center font-mouse-memoirs uppercase text-lg sm:text-xl py-3.5 sm:py-4 rounded-full border-2 border-[var(--red)] text-[var(--red)]"
               >
                 Call
               </a>
               <button
                 type="button"
                 onClick={clearCart}
-                className="flex-1 font-mouse-memoirs uppercase py-3 rounded-full border-2 border-black/15 text-black/50 hover:border-[var(--red)] hover:text-[var(--red)]"
+                className="flex-1 font-mouse-memoirs uppercase text-lg sm:text-xl py-3.5 sm:py-4 rounded-full border-2 border-black/15 text-black/50 hover:border-[var(--red)] hover:text-[var(--red)]"
               >
                 Clear
               </button>
@@ -218,7 +220,7 @@ export function FloatingCartButton() {
     <button
       type="button"
       onClick={openCart}
-      className="fixed bottom-6 right-6 z-[999] w-14 h-14 max-md:w-13 max-md:h-13 bg-[var(--red)] border-[3px] border-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-transform"
+      className="fixed bottom-5 right-5 sm:bottom-7 sm:right-7 z-[999] w-16 h-16 sm:w-[4.5rem] sm:h-[4.5rem] bg-[var(--red)] border-[3px] border-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-transform"
       aria-label={`Open cart, ${totalItems} items`}
     >
       <svg
@@ -227,7 +229,7 @@ export function FloatingCartButton() {
         viewBox="0 0 24 24"
         strokeWidth="2.2"
         stroke="currentColor"
-        className="w-6 h-6 text-white"
+        className="w-7 h-7 sm:w-8 sm:h-8 text-white"
       >
         <path
           strokeLinecap="round"
@@ -236,7 +238,7 @@ export function FloatingCartButton() {
         />
       </svg>
       {totalItems > 0 && (
-        <span className="absolute -top-1 -right-1 min-w-[1.35rem] h-[1.35rem] px-1 bg-[var(--yellow)] text-[var(--dark)] text-xs font-extrabold rounded-full flex items-center justify-center border-2 border-white">
+        <span className="absolute -top-1 -right-1 min-w-[1.6rem] h-[1.6rem] sm:min-w-[1.75rem] sm:h-[1.75rem] px-1 bg-[var(--yellow)] text-[var(--dark)] text-sm font-extrabold rounded-full flex items-center justify-center border-2 border-white">
           {totalItems > 99 ? "99+" : totalItems}
         </span>
       )}

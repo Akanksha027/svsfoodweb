@@ -248,11 +248,8 @@ function MenuCard({ item }: { item: MenuItem }) {
   };
 
   return (
-    <article className="menu-card-item relative bg-white rounded-[2vw] max-md:rounded-[5vw] p-[2vw] max-md:p-[4vw] flex flex-col shadow-md border-[3px] border-white hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 overflow-hidden">
-      <div className="absolute left-0 right-0 top-[38%] -translate-y-1/2 h-[2.8vw] max-md:h-[6vw] z-0 flex flex-col justify-between overflow-hidden opacity-90">
-        <div className="w-full h-1/2 bg-[repeating-linear-gradient(90deg,var(--red)_0px,var(--red)_14px,#fff_14px,#fff_28px)]" />
-        <div className="w-full h-1/2 bg-[repeating-linear-gradient(90deg,#fff_0px,#fff_14px,var(--red)_14px,var(--red)_28px)]" />
-      </div>
+    <article className="menu-card-item relative rounded-[2vw] max-md:rounded-[5vw] p-[2vw] max-md:p-[4vw] flex flex-col shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 overflow-hidden" style={{ backgroundColor: '#ffffff' }}>
+
 
       {/* Cart / add button */}
       {qty === 0 ? (
@@ -311,7 +308,7 @@ function MenuCard({ item }: { item: MenuItem }) {
           src={src}
           alt={item.name}
           fill
-          className="object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.12)]"
+          className="object-contain"
           sizes="(max-width: 768px) 90vw, 28vw"
           onError={() => {
             if (src !== DEFAULT_MENU_IMAGE) setSrc(DEFAULT_MENU_IMAGE);
@@ -333,42 +330,18 @@ function MenuCard({ item }: { item: MenuItem }) {
           )}
         </div>
 
-        <div className="flex items-start justify-between gap-2">
+        <div className="flex items-center justify-center gap-4 px-[2vw] max-md:px-3 mt-1">
           <h4 className="font-modak text-[1.5vw] max-md:text-[5vw] text-[var(--red)] leading-[1.15]">
             {item.name}
           </h4>
-          <span className="shrink-0 font-nunito font-extrabold text-[1.6vw] max-md:text-[4.2vw] text-black/80 px-2 py-1 bg-black/5 rounded-lg whitespace-nowrap">
+          <span className="shrink-0 font-nunito font-extrabold text-[1.6vw] max-md:text-[4.2vw] text-black/80 whitespace-nowrap">
             {item.priceLabel}
           </span>
         </div>
 
-        {item.priceNote ? (
-          <p className="font-nunito font-bold text-[0.85vw] max-md:text-[2.8vw] text-black/50">
-            {item.priceNote}
-          </p>
-        ) : null}
 
-        <button
-          type="button"
-          onClick={handleAdd}
-          className="mt-2 w-full flex items-center justify-center gap-2 bg-[var(--red)] hover:bg-black text-white font-mouse-memoirs uppercase tracking-wide text-[1.2vw] max-md:text-[4vw] py-[0.9vw] max-md:py-[3vw] rounded-full transition-colors"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="2.2"
-            stroke="currentColor"
-            className="w-[1.4vw] max-md:w-[4.5vw] h-[1.4vw] max-md:h-[4.5vw]"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-            />
-          </svg>
-          {qty > 0 ? "Add more" : "Add to cart"}
-        </button>
+
+
       </div>
     </article>
   );
