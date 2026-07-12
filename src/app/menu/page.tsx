@@ -287,7 +287,7 @@ function MenuCard({ item }: { item: MenuItem }) {
           <button
             type="button"
             onClick={openCart}
-            className="font-nunito font-extrabold text-[1.2vw] max-md:text-[4vw] min-w-[2vw] px-1"
+            className="font-roboto-local font-bold text-[1.2vw] max-md:text-[4vw] min-w-[2vw] px-1"
             aria-label={`${qty} in cart, open cart`}
           >
             {qty}
@@ -317,24 +317,13 @@ function MenuCard({ item }: { item: MenuItem }) {
       </div>
 
       <div className="relative z-10 flex flex-col gap-1.5 mt-auto">
-        <div className="flex flex-wrap gap-1.5">
-          {item.isJain && (
-            <span className="text-[0.65rem] max-md:text-[0.7rem] font-nunito font-extrabold uppercase tracking-wide bg-green-100 text-green-800 px-2 py-0.5 rounded-full">
-              Jain
-            </span>
-          )}
-          {item.isDairyFree && (
-            <span className="text-[0.65rem] max-md:text-[0.7rem] font-nunito font-extrabold uppercase tracking-wide bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full">
-              Dairy Free
-            </span>
-          )}
-        </div>
 
-        <div className="flex items-center justify-center gap-4 px-[2vw] max-md:px-3 mt-1">
-          <h4 className="font-modak text-[1.5vw] max-md:text-[5vw] text-[var(--red)] leading-[1.15]">
+
+        <div className="flex items-center justify-between gap-2 px-[1vw] max-md:px-2 mt-1 w-full">
+          <h4 className="font-kollektif font-bold text-[1.5vw] max-md:text-[5vw] text-[var(--red)] leading-[1.2] w-[65%] text-center">
             {item.name}
           </h4>
-          <span className="shrink-0 font-nunito font-extrabold text-[1.6vw] max-md:text-[4.2vw] text-black/80 whitespace-nowrap">
+          <span className="shrink-0 font-roboto-local font-bold text-[1.6vw] max-md:text-[4.2vw] text-black/80 whitespace-nowrap w-[30%] text-center">
             {item.priceLabel}
           </span>
         </div>
